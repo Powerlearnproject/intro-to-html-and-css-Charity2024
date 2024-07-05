@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <h1 class="add-h1"> ADD EXPENSE</h1>
+    <hr>
+    <form id="addform">
+        <label for="expense name" class="expense" > Expense Name:</label> <br>
+        <input type="text"  class="expense name" id="expense name"> <br>
+
+        <p class="ctg"> Category:</p>
+        <input type="radio" id="rent"  name="category" value="Rent">
+        <label for="rent"> Rent </label> <br>
+
+        <input type="radio" id="groceries" name="category" value="Category">
+        <label for="groceries"> Groceries </label> <br>
+
+        <input type="radio" id="entertainment" name="category value="Entertainment">
+        <label for="entertainment"> Entertainment</label> <br>
+
+        <input type="radio" id="other" name="category"  value="Other">
+        <label for="other">Other</label> <br>
+
+        <label for="date" class="dt"> Date: </label> <br>
+        <input type="date" class="date" > <br>
+
+        <label for="amount" class="at" >Amount:</label> <br>
+        <input type="number" class="amount" id="amount" name="amount" maxlength="6 characters"> <br>
+
+        <label for="expense purpose" class="ep" > Expense Purpose:</label> <br>
+        <input type="text" id="expense purpose" class="expense purpose" min="10 characters" max="60 characters"> <br>
+
+        <input type="submit" id="submitbutton" placeholder="SUBMIT">
+        <input type="reset"  id="resetbutton" placeholder="RESET">
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0'">
+
+<title>View Expense</title>
+
+<style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .content-table{
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 0.9em;
+    width: 75%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .content-table thead tr {
+        background-color: #ffe5b4;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table th,
+    .content-table td{
+        padding: 12px 15px;
+        font-family: sans-serif;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+
+    }
+    .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type{
+        border-bottom: 2px solid #ffe5b4;
+    }
+    td.status{
+        padding: .4rem 0;
+        border: 50px;
+        display: inline-block;
+        text-align: center;
+     }
+     .status.new{
+        background-color: #86e49d;
+        color: #006b21;
+     }
+     .status.approved{
+        background-color: #d893a3;
+        color: #b30021;
+     }
+     .status.pending{
+        background-color: #6fcaea;
+        color: navy;
+     }
+     .status.rejected{
+        background-color: coral;
+        color: red;
+     }
+     .status.reimbursed{
+        background-color: grey;
+     }
+  </style>
+
+    </head>
+
+    <body>
+        <h1>Your Expense &#x1F4B0; </h1>
+
+        <table>
+            <table class="content-table">
+            <thead>
+            <tr>
+                <th> &#x24; Amount</th>
+                <th> &#x1F4C5; Date</th>
+                <th> &#128337; Status</th>
+                <th>&#x1F44D; Send to finance team</th>
+            </tr>
+
+            </thead>
+            <tbody>
+
+            <tr>
+                <td>$450.00</td>
+                <td>09/30/23</td>
+                <td>
+                    <p class="status new">New</td>
+                <td><button class="email">Send Email</button></td>
+
+            </tr>
+
+            <tr>
+                <td>$120.00</td>
+                <td>10/02/23</td>
+                <td>
+                    <p class="status approved">Approved</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$35.00</td>
+                <td>10/04/23</td>
+                <td>
+                    <p class="status pending">Pending</td>
+            <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$50.00</td>
+                <td>10/06/23</td>
+                <td>
+                    <p class="status approved">Approved</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$25.00</td>
+                <td>10/14/23</td>
+                <td>
+                    <p class="status reimbursed">Reimbursed</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$80.00</td>
+                <td>10/17/23</td>
+                <td>
+                    <p class="status rejected">Rejected</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$15.00</td>
+                <td>10/19/23</td>
+                <td>
+                    <p class="status pending">Pending</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$120.00</td>
+                <td>10/21/23</td>
+                <td>
+                    <p class="status approved">Approved</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            <tr>
+                <td>$40.00</td>
+                <td>10/29/23</td>
+                <td>
+                    <p class="status approved">Approved</td>
+                <td><button class="email">Send Email</button></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

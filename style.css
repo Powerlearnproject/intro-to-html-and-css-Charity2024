@@ -1,0 +1,388 @@
+/* Index.html stylesheet */
+.homepage_image{
+  width: 900px;
+  height: 500px;
+  display: inline-block;
+}
+
+.home_navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 10px;
+}
+.home-h1{
+  color: rgb(112, 36, 112);
+  font-family: sans-serif;
+  font-size: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: large;
+}
+
+.right_section{
+  display: inline-block;
+  margin-top: 100px;
+  width: 300px;
+  
+}
+
+.left_section{
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.homeButton{
+  color: white;
+  background-color: rgb(212, 82, 82);
+  text-align: center;
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 3px;
+  margin: 8px;
+  display: inline-block;
+  
+}
+
+/* edit stylesheet */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.body{
+  border: 1px solid #dddddd;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 90;
+}
+.search-container2 {
+  display:flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 150px;
+  height: 40px;
+}
+.bottom-button{
+  padding: 18px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  margin-left: 2px;
+
+}
+.bottom-section{
+  display: inline-block;
+  vertical-align: top;
+}
+.bottom-button-section{
+  display: inline-block;
+  margin-left: 900px;
+}
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+
+}
+
+.edit-button{
+  padding: 5px;
+  background-color: #4484c8;
+  color: white;
+  border-radius: 4px;
+  border-color: rgb(86, 85, 85);
+  border-width: 1px;
+  width: 50px;
+
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+/* login_in_css */
+.login_body {
+  background: url(./public/login_background.jpeg);
+  align-items: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  height: 20vh;
+
+}
+
+.login_header h1 {
+  font-size: 40px;
+  font-weight: 30;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginform {
+  position: absolute;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+
+.login_input {
+  display: flex;
+  padding: 5px;
+  width: 96%;
+  box-sizing: border-box;
+  margin-left: 6px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 6px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+.login_checkbox {
+  margin-left: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login_span {
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 195px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.sign_up_button {
+  background-color: #2d59dc;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 96%;
+  margin-left: 6px;
+  margin: 0 auto;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 16px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #2d59dc;
+  color: #fff;
+  border: none;
+}
+
+/* sign_up_css */
+.sign_up_form {
+
+  overflow: hidden;
+}
+
+.sign_up_form h1 {
+  font-size: 40px;
+  font-weight: 30;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign_up_input {
+  display: flex;
+  padding: 5px;
+  width: 96%;
+  box-sizing: border-box;
+  margin-left: 6px;
+}
+
+.sign_up_span {
+  padding-right: 250px;
+  padding-left: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#registerform {
+  position: absolute;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+
+/* Add Expense */
+.add-h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 355px;
+}
+.expense {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.expense.name {
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #0096FF;
+  
+}
+.ctg {
+  margin-left: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.date{
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #0096FF;
+  padding: 5px;
+  margin-top: 5px;
+}
+.at {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+}
+.amount {
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #0096FF;
+}
+.ep{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 25px;
+  border: hidden;
+  border-width: 25px;
+  padding-top: 20px;
+  
+}
+.expense.purpose{
+  border: 1px, solid;
+  border-radius: 4px;
+  border-color: #0096FF;
+  height: 40px;
+  width: 120px;
+}
+#addform {
+  position: absolute;
+  width: 500px;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+#submitbutton{
+  background-color: #ef2315; 
+  border: none; 
+  color: white;
+  padding: 12px 24px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+
+}
+#resetbutton {
+  background-color: #ad241a; 
+  border: none; 
+  color: white; 
+  padding: 12px 24px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+input[type="radio"] {
+  margin-right: 5px;
+}
+label {
+  cursor: pointer;
+}
+
