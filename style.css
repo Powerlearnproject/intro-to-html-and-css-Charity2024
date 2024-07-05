@@ -52,18 +52,7 @@ li a {
   
 }
 
-.homeButton{
-  color: white;
-  background-color: rgb(212, 82, 82);
-  text-align: center;
-  border: none;
-  height: 40px;
-  width: 120px;
-  border-radius: 3px;
-  margin: 8px;
-  display: inline-block;
-  
-}
+
 
 /* edit stylesheet */
 table {
